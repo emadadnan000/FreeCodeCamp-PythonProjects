@@ -6,5 +6,5 @@ print(add_time("11:06 PM", "2:02"))
 print(add_time("8:16 PM", "466:02"))
 print(add_time("11:59 PM", "24:05"))
 
-# Run unit tests automatically
-main(module='test_module', exit=False)
+
+main(module='test_module-time', exit=False)

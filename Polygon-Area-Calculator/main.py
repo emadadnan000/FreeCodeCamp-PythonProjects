@@ -1,4 +1,3 @@
-# This entrypoint file to be used in development. Start by reading README.md
 import shape_calculator
 from unittest import main
 
@@ -22,5 +21,4 @@ rect.set_width(16)
 print(rect.get_amount_inside(sq))
 
 
-# Run unit tests automatically
-main(module='test_module', exit=False)
+main(module='test_module-polygon', exit=False)
